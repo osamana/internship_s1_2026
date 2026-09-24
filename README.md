@@ -13,8 +13,8 @@ Week 1 is common to both tracks. From week 2 on, open the file for your track.
 
 | Week | Dates | Shared | Web track | AI track |
 |---|---|---|---|---|
-| 1 | 14–20 Sep | [Developer foundations](week-01-developer-foundations.md) | | |
-| 2 | 21–27 Sep | | *coming Monday* | *coming Monday* |
+| 1 | 14–20 Sep | [Prep work](week-01-developer-foundations.md) | | |
+| 2 | 21–27 Sep | | [Your first web API](week-02-web-python-and-fastapi.md) | [Talking to language models](week-02-ai-llm-foundations.md) |
 | 3 | 28 Sep–4 Oct | | | |
 | 4 | 5–11 Oct | | | |
 | 5 | 12–18 Oct | | | |
