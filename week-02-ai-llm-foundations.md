@@ -174,7 +174,7 @@ Now go back to `sdk_claude.py`. Add `from ailab.cost import cost_usd` at the top
 
 Goal: send 5 prompts to two models, save one CSV row per call, then print a small table.
 
-Before you run this, understand: a **benchmark** is a fixed set of inputs you run on every model in the same way. It turns "I think Opus is better" into numbers. Expected cost of one run: a few cents.
+Before you run this, understand: a **benchmark** is a fixed set of inputs you run on every model in the same way. It turns "I think Opus is better" into numbers. Expected cost of one run: a few cents. One detail: Haiku 4.5 does not accept the `effort` setting, so the script sends it only to Opus (the `extra` line).
 
 Create `scripts/bench.py`:
 
@@ -200,8 +200,9 @@ rows = []
 for model in MODELS:
     for i, prompt in enumerate(PROMPTS, start=1):
         t0 = time.perf_counter()
+        extra = {"output_config": {"effort": "low"}} if model == "claude-opus-5" else {}
         msg = client.messages.create(
-            model=model, max_tokens=400, output_config={"effort": "low"},
+            model=model, max_tokens=400, **extra,
             messages=[{"role": "user", "content": prompt}],
         )
         u = msg.usage

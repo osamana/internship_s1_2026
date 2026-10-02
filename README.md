@@ -15,7 +15,7 @@ Week 1 is common to both tracks. From week 2 on, open the file for your track.
 |---|---|---|---|---|
 | 1 | 14–20 Sep | [Prep work](week-01-developer-foundations.md) | | |
 | 2 | 21–27 Sep | | [Your first web API](week-02-web-python-and-fastapi.md) | [Talking to language models](week-02-ai-llm-foundations.md) |
-| 3 | 28 Sep–4 Oct | | | |
+| 3 | 28 Sep–4 Oct | | [A real database](week-03-web-postgresql.md) | [Getting data, not text](week-03-ai-structured-outputs.md) |
 | 4 | 5–11 Oct | | | |
 | 5 | 12–18 Oct | | | |
 | 6 | 19–25 Oct | | | |
