@@ -18,7 +18,7 @@ Week 1 is common to both tracks. From week 2 on, open the file for your track.
 | 3 | 28 Sep–4 Oct | | [A real database](week-03-web-postgresql.md) | [Getting data, not text](week-03-ai-structured-outputs.md) |
 | 4 | 5–11 Oct | | [Users and login](week-04-web-users-and-login.md) | [Giving the model tools](week-04-ai-tools-and-agent-loop.md) |
 | 5 | 12–18 Oct | | [A web page for your API](week-05-web-typescript-and-react.md) | [Giving the assistant knowledge](week-05-ai-retrieval-and-rag.md) |
-| 6 | 19–25 Oct | | | |
+| 6 | 19–25 Oct | | [Pages for your app with Next.js](week-06-web-nextjs-app-router.md) | [Letting a framework run the loop](week-06-ai-claude-agent-sdk.md) |
 | 7 | 26 Oct–1 Nov | | | |
 | 8 | 2–8 Nov | | | |
 | 9 | 9–15 Nov | | | |
